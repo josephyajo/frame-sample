@@ -13,6 +13,7 @@
         <module>frame-sample-web</module>
         <module>frame-sample-service</module>
         <module>frame-sample-dal</module>
+        <module>frame-sample-core</module>
     </modules>
 
     <properties>
