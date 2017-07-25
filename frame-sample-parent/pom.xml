@@ -35,6 +35,7 @@
         <cors-filter.version>2.4</cors-filter.version>
         <java-property-utils.version>1.9.1</java-property-utils.version>
         <springfox.version>2.4.0</springfox.version>
+        <felix.version>4.2.1</felix.version>
 
         <lsf4j.version>1.7.21</lsf4j.version>
         <junit.version>4.12</junit.version>
@@ -237,6 +238,13 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${springfox.version}</version>
+            </dependency>
+
+            <!-- OSGI -->
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.framework</artifactId>
+                <version>${felix.version}</version>
             </dependency>
 
             <!-- Test -->
