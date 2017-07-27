@@ -1,4 +1,4 @@
-package org.sheep.frame;
+package org.sheep.jbox.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package org.sheep.frame;
+package org.sheep.jbox.api;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
