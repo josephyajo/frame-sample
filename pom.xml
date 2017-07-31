@@ -15,6 +15,7 @@
         <module>frame-sample-dal</module>
         <module>frame-sample-core</module>
         <module>jbox-container</module>
+        <module>jbox-api</module>
     </modules>
 
     <properties>

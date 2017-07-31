@@ -1,4 +1,4 @@
-package org.sheep.jbox.api;
+package org.sheep.jbox.jetty;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package org.sheep.jbox;
+package org.sheep.jbox.api;
 
 /**
  * @Description:

@@ -1,4 +1,4 @@
-package org.sheep.jbox.api.Controller;
+package org.sheep.jbox.jetty.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
