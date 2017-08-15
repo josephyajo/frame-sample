@@ -9,7 +9,7 @@ import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.server.handler.DefaultHandler;
 import org.eclipse.jetty.server.handler.HandlerCollection;
 import org.eclipse.jetty.servlet.ServletContextHandler;
-import org.sheep.jbox.container.Container;
+import org.sheep.jbox.api.container.Container;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
