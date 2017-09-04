@@ -74,6 +74,11 @@
                 <version>${mybatis-spring.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-core</artifactId>
+                <version>${mybatis-generator-core.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper</artifactId>
                 <version>${pagehelper.version}</version>
