@@ -14,8 +14,7 @@
         <module>frame-sample-service</module>
         <module>frame-sample-dal</module>
         <module>frame-sample-core</module>
-        <module>jbox-container</module>
-        <module>jbox-api</module>
+        <module>frame-micro</module>
     </modules>
 
     <properties>
