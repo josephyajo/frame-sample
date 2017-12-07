@@ -9,14 +9,9 @@
         <relativePath>../frame-parent</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.sheep.frame.micro</groupId>
-    <artifactId>frame-micro</artifactId>
+    <groupId>org.sheep.frame.single</groupId>
+    <artifactId>frame-single</artifactId>
     <packaging>pom</packaging>
-
-    <modules>
-        <module>micro-gateway</module>
-        <module>micro-service</module>
-    </modules>
 
 
 </project>

@@ -2,19 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>frame-micro</artifactId>
+        <groupId>org.sheep.frame.micro</groupId>
+        <version>${frame-sample.version}</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.sheep.frame.micro</groupId>
-    <artifactId>frame-sample</artifactId>
-    <version>${frame-sample.version}</version>
+    <artifactId>micro-gateway</artifactId>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>frame-parent</module>
-        <module>frame-micro</module>
-        <module>frame-single</module>
-    </modules>
 
-    <properties>
-        <frame.version>0.0.1-SNAPSHOT</frame.version>
-    </properties>
 </project>
