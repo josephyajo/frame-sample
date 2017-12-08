@@ -16,7 +16,6 @@
     <modules>
         <module>micro-gateway</module>
         <module>micro-service</module>
+        <module>micro-common</module>
     </modules>
-
-
 </project>

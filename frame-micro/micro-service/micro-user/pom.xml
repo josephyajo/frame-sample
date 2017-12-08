@@ -11,8 +11,10 @@
     <groupId>org.sheep.frame.micro</groupId>
     <artifactId>micro-user</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>micro-user-api</module>
+        <module>micro-user-service</module>
     </modules>
 
 
