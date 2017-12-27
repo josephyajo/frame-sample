@@ -37,6 +37,9 @@
         <springfox.version>2.4.0</springfox.version>
         <felix.version>4.2.1</felix.version>
 
+        <spring-boot-starter-dubbo.version>1.0.1-SNAPSHOT</spring-boot-starter-dubbo.version>
+        <zkclient.version>0.10</zkclient.version>
+
         <lsf4j.version>1.7.21</lsf4j.version>
         <junit.version>4.12</junit.version>
     </properties>
@@ -158,6 +161,18 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- Dubbo -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>spring-boot-starter-dubbo</artifactId>
+                <version>${spring-boot-starter-dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.101tec</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zkclient.version}</version>
             </dependency>
 
             <!-- Commons -->

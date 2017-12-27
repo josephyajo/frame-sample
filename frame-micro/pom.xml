@@ -13,6 +13,14 @@
     <artifactId>frame-micro</artifactId>
     <packaging>pom</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>1.5.2.RELEASE</version>
+        </dependency>
+    </dependencies>
+
     <modules>
         <module>micro-gateway</module>
         <module>micro-service</module>
