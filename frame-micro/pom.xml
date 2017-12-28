@@ -6,20 +6,12 @@
         <artifactId>frame-parent</artifactId>
         <groupId>org.sheep.frame</groupId>
         <version>${frame-sample.version}</version>
-        <relativePath>../frame-parent</relativePath>
+        <relativePath>../frame-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.sheep.frame.micro</groupId>
     <artifactId>frame-micro</artifactId>
     <packaging>pom</packaging>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-dependencies</artifactId>
-            <version>1.5.2.RELEASE</version>
-        </dependency>
-    </dependencies>
 
     <modules>
         <module>micro-gateway</module>

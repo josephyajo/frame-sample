@@ -8,7 +8,7 @@
         <version>${frame-sample.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.sheep.frame.micro</groupId>
+    <groupId>org.sheep.frame.micro.service</groupId>
     <artifactId>micro-service</artifactId>
     <packaging>pom</packaging>
 

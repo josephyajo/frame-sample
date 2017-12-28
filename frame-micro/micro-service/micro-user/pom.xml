@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>micro-service</artifactId>
-        <groupId>org.sheep.frame.micro</groupId>
+        <groupId>org.sheep.frame.micro.service</groupId>
         <version>${frame-sample.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.sheep.frame.micro</groupId>
+    <groupId>org.sheep.frame.micro.service.user</groupId>
     <artifactId>micro-user</artifactId>
     <packaging>pom</packaging>
 
@@ -16,6 +16,4 @@
         <module>micro-user-api</module>
         <module>micro-user-service</module>
     </modules>
-
-
 </project>
