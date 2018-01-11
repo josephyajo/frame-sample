@@ -4,6 +4,7 @@ import com.alibaba.boot.dubbo.annotation.EnableDubboConfiguration;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @Description:
@@ -12,7 +13,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  */
 @SpringBootApplication
 @EnableDubboConfiguration
-public class MicroUserServiceApplication implements CommandLineRunner{
+@ComponentScan(basePackages = {"org.sheep.frame.micro"})
+public class MicroUserServiceApplication implements CommandLineRunner {
     public static void main(String[] args) {
         new SpringApplicationBuilder()
                 .sources(MicroUserServiceApplication.class)
@@ -22,6 +24,5 @@ public class MicroUserServiceApplication implements CommandLineRunner{
 
     @Override
     public void run(String... strings) throws Exception {
-
     }
 }
